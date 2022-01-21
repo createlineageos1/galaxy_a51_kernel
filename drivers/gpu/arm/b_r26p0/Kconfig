@@ -262,8 +262,7 @@ config MALI_HW_ERRATA_1485982_USE_CLOCK_ALTERNATIVE
 	  tree using the property, opp-mali-errata-1485982. Otherwise the
 	  slowest clock will be selected.
 
-config MALI_GEM5_BUILD
-	bool "Enable build of Mali kernel driver for GEM5"
+
 	depends on MALI_MIDGARD
 	default n
 	help
